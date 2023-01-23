@@ -4,9 +4,9 @@ public class Main {
         int replenishment = 9876;
 
         int bonus;
-        if(replenishment>=1001){
-            bonus = replenishment/100;
-        }else {
+        if (replenishment >= 1001) {
+            bonus = replenishment / 100;
+        } else {
             bonus = 0;
         }
         int sum = account + bonus + replenishment;
